@@ -33,14 +33,19 @@
                 <div class="col">
                     <div class="text-box">
                         <h5>Our Products</h5>
-                        <h1><b>Simplicity</b><br> is the <b>ultimate</b> sophistication</h1>
+                        <h1><b>Simplicity</b><br> is the <b>ultimate</b> 
+                            sophistication</h1>
 
                     </div>
+
+                    <img src="fotos/circle.png" class="small-icon1">
+                    <img src="fotos/circle.png" class="small-icon2">
+                    <img src="fotos/square.png" class="small-icon3">
                 </div>
 
                 <div class="col">
                     <div class="gallery-box">
-                        <img src="fotos/pic2.jpg">
+                        <img src="fotos/pic2.jpg" id="gallery">
                         
                         <ul>
                             <li class="btn"> front</li>
@@ -50,9 +55,35 @@
                         </ul>
                     </div>
                 </div>
-
             </div>
+            <img src="fotos/circle.png" class="small-icon4">
+            <img src="fotos/square.png" class="small-icon5"> 
         </div>
+        <script>
+            var btn = document.getElementsByClassName("btn");
+            var gallery=document.getElementById("gallery");
+
+            var images = new Array(
+                "fotos/pic1.jpg",
+                "fotos/pic2.jpg",
+                "fotos/pic3.jpg",
+                "fotos/pic4.jpg"
+            );
+
+            for(let i=0; i<btn.length; i++){
+                btn[i].onclick = function()
+                {
+                    gallery.src = images[i];
+                };
+            }
+
+            
+
+
+        </script>
+
+
+     
 
     </body>
 </html>
