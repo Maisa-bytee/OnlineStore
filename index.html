@@ -7,7 +7,11 @@
     <body>
         <div class="container">
             <div class="navbar">
-                 <img src="fotos/logo.png" class="logo">
+                 <div class="logo">
+                     <h1>Modern Sotho</h1>
+                 </div>
+
+
                 
                 <nav>
                     <ul>
@@ -25,7 +29,6 @@
                         </li> 
                     </ul>
                 </nav>
-                <!-- <img src="fotos/menu.png" class="menu-icon"> -->
                 
             </div>
 
@@ -74,6 +77,9 @@
                 btn[i].onclick = function()
                 {
                     gallery.src = images[i];
+                    let current = document.getElementsByClassName("active");
+                    current[0].className = current[0].className.replace("active","");
+                    this.className += " active";
                 };
             }
 

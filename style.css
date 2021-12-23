@@ -19,8 +19,13 @@
     
 }
 .logo{
-    width: 120px;
+    width: 50%;
+    height: 100px;
     cursor: pointer;
+}
+.logo h1{
+    line-height: 100px;
+    padding-left: 50px;
 }
 .menu-icon{
     width: 30px;
