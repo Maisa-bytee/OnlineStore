@@ -6,16 +6,19 @@
 .container{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(45deg, #22046b, #e14e42);
+    background: linear-gradient(45deg, #00c6a7, #1e4d92);
     color: #fff;
     position: relative;
+   
 }
 .navbar{
-    width: 90%;
+    width: 97%;
     height: 15vh;
     margin: auto;
     display: flex;
     align-items: center;
+    display: inline-block;
+    
     
 }
 .logo{
@@ -26,6 +29,7 @@
 .logo h1{
     line-height: 100px;
     padding-left: 50px;
+
 }
 .menu-icon{
     width: 30px;
@@ -35,11 +39,13 @@
 nav{
     flex:1 ;
     text-align: right;
+   
 }
 nav ul li{
     list-style: none;
     display: inline-block;
     margin-left: 60px;
+    
 }
 nav ul li a{
     text-decoration: none;
@@ -221,3 +227,37 @@ label{
      transform: translate(30px,-11px) rotatez(45deg);
    
    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
