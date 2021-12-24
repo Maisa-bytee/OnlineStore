@@ -19,7 +19,6 @@
     align-items: center;
     display: inline-block;
     
-    
 }
 .logo{
     width: 50%;
@@ -39,7 +38,7 @@
 nav{
     flex:1 ;
     text-align: right;
-   
+
 }
 nav ul li{
     list-style: none;
